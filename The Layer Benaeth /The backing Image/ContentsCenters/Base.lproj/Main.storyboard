@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Contents Centers View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ContentsCentersViewController" customModule="ContentsCenters" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RI-Bc-vmQ">
+                                <rect key="frame" x="10" y="227" width="300" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.46545081244815445" blue="0.60558246393978088" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="1HS-9e-cfI"/>
+                                    <constraint firstAttribute="height" constant="100" id="LNW-gC-cvd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKh-vd-pkF">
+                                <rect key="frame" x="110" y="348" width="100" height="200"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="AkY-B1-ke8"/>
+                                    <constraint firstAttribute="height" constant="200" id="ckb-uL-YBq"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4c-GB-Xdi">
+                                <rect key="frame" x="85" y="50" width="150" height="150"/>
+                                <color key="backgroundColor" red="1" green="0.28357947919999998" blue="0.23440813990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="5xZ-Pp-en0"/>
+                                    <constraint firstAttribute="height" constant="150" id="yr6-5y-ShU"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="y4c-GB-Xdi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="09q-dx-XBI"/>
+                            <constraint firstItem="eKh-vd-pkF" firstAttribute="top" secondItem="7RI-Bc-vmQ" secondAttribute="bottom" constant="21" id="9Ea-2i-gv3"/>
+                            <constraint firstItem="7RI-Bc-vmQ" firstAttribute="centerX" secondItem="y4c-GB-Xdi" secondAttribute="centerX" id="UwL-fP-yK1"/>
+                            <constraint firstItem="y4c-GB-Xdi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="acG-et-jzn"/>
+                            <constraint firstItem="7RI-Bc-vmQ" firstAttribute="top" secondItem="y4c-GB-Xdi" secondAttribute="bottom" constant="27" id="gK5-ST-v1Q"/>
+                            <constraint firstItem="eKh-vd-pkF" firstAttribute="centerX" secondItem="7RI-Bc-vmQ" secondAttribute="centerX" id="ggI-r9-KP1"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Button2" destination="7RI-Bc-vmQ" id="XU4-vd-ldE"/>
+                        <outlet property="button1" destination="y4c-GB-Xdi" id="bfG-XD-kwX"/>
+                        <outlet property="button3" destination="eKh-vd-pkF" id="qZS-i3-TeC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130" y="382"/>
         </scene>
     </scenes>
 </document>
