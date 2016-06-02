@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B40C1B81CFFC829000602A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40C1B71CFFC829000602A8 /* AppDelegate.swift */; };
+		5B40C1BA1CFFC829000602A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40C1B91CFFC829000602A8 /* ViewController.swift */; };
+		5B40C1BD1CFFC829000602A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40C1BB1CFFC829000602A8 /* Main.storyboard */; };
+		5B40C1BF1CFFC829000602A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B40C1BE1CFFC829000602A8 /* Assets.xcassets */; };
+		5B40C1C21CFFC829000602A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40C1C01CFFC829000602A8 /* LaunchScreen.storyboard */; };
 		5B60D1B41CFEF0C0002FAE3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60D1B31CFEF0C0002FAE3C /* AppDelegate.swift */; };
 		5B60D1B61CFEF0C0002FAE3C /* ShadowPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60D1B51CFEF0C0002FAE3C /* ShadowPathViewController.swift */; };
 		5B60D1B91CFEF0C0002FAE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B60D1B71CFEF0C0002FAE3C /* Main.storyboard */; };
@@ -21,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B40C1B51CFFC829000602A8 /* LayerMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B40C1B71CFFC829000602A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B40C1B91CFFC829000602A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B40C1BC1CFFC829000602A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B40C1BE1CFFC829000602A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B40C1C11CFFC829000602A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B40C1C31CFFC82A000602A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B60D1B11CFEF0C0002FAE3C /* ShadowPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B60D1B31CFEF0C0002FAE3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B60D1B51CFEF0C0002FAE3C /* ShadowPathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowPathViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5B40C1B21CFFC829000602A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B60D1AE1CFEF0C0002FAE3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,6 +76,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B40C1B61CFFC829000602A8 /* LayerMask */ = {
+			isa = PBXGroup;
+			children = (
+				5B40C1B71CFFC829000602A8 /* AppDelegate.swift */,
+				5B40C1B91CFFC829000602A8 /* ViewController.swift */,
+				5B40C1BB1CFFC829000602A8 /* Main.storyboard */,
+				5B40C1BE1CFFC829000602A8 /* Assets.xcassets */,
+				5B40C1C01CFFC829000602A8 /* LaunchScreen.storyboard */,
+				5B40C1C31CFFC82A000602A8 /* Info.plist */,
+			);
+			path = LayerMask;
+			sourceTree = "<group>";
+		};
 		5B60D1B21CFEF0C0002FAE3C /* ShadowPath */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +108,7 @@
 				5B60D1C31CFEF709002FAE3C /* QuartzCore.framework */,
 				5BA353851CFEDC2F00EC9AB2 /* Visual Effects */,
 				5B60D1B21CFEF0C0002FAE3C /* ShadowPath */,
+				5B40C1B61CFFC829000602A8 /* LayerMask */,
 				5BA353841CFEDC2F00EC9AB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +118,7 @@
 			children = (
 				5BA353831CFEDC2F00EC9AB2 /* Visual Effects.app */,
 				5B60D1B11CFEF0C0002FAE3C /* ShadowPath.app */,
+				5B40C1B51CFFC829000602A8 /* LayerMask.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +139,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5B40C1B41CFFC829000602A8 /* LayerMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B40C1C61CFFC82A000602A8 /* Build configuration list for PBXNativeTarget "LayerMask" */;
+			buildPhases = (
+				5B40C1B11CFFC829000602A8 /* Sources */,
+				5B40C1B21CFFC829000602A8 /* Frameworks */,
+				5B40C1B31CFFC829000602A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayerMask;
+			productName = LayerMask;
+			productReference = 5B40C1B51CFFC829000602A8 /* LayerMask.app */;
+			productType = "com.apple.product-type.application";
+		};
 		5B60D1B01CFEF0C0002FAE3C /* ShadowPath */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B60D1C21CFEF0C0002FAE3C /* Build configuration list for PBXNativeTarget "ShadowPath" */;
@@ -149,6 +200,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Mobile13;
 				TargetAttributes = {
+					5B40C1B41CFFC829000602A8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					5B60D1B01CFEF0C0002FAE3C = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -172,11 +226,22 @@
 			targets = (
 				5BA353821CFEDC2F00EC9AB2 /* Visual Effects */,
 				5B60D1B01CFEF0C0002FAE3C /* ShadowPath */,
+				5B40C1B41CFFC829000602A8 /* LayerMask */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5B40C1B31CFFC829000602A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40C1C21CFFC829000602A8 /* LaunchScreen.storyboard in Resources */,
+				5B40C1BF1CFFC829000602A8 /* Assets.xcassets in Resources */,
+				5B40C1BD1CFFC829000602A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B60D1AF1CFEF0C0002FAE3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +265,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5B40C1B11CFFC829000602A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40C1BA1CFFC829000602A8 /* ViewController.swift in Sources */,
+				5B40C1B81CFFC829000602A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B60D1AD1CFEF0C0002FAE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +295,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		5B40C1BB1CFFC829000602A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B40C1BC1CFFC829000602A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B40C1C01CFFC829000602A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B40C1C11CFFC829000602A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		5B60D1B71CFEF0C0002FAE3C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -256,6 +346,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5B40C1C41CFFC82A000602A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LayerMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sutrix.Core-Animation-Demo.LayerMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B40C1C51CFFC82A000602A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LayerMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sutrix.Core-Animation-Demo.LayerMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5B60D1C01CFEF0C0002FAE3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,6 +498,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5B40C1C61CFFC82A000602A8 /* Build configuration list for PBXNativeTarget "LayerMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B40C1C41CFFC82A000602A8 /* Debug */,
+				5B40C1C51CFFC82A000602A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5B60D1C21CFEF0C0002FAE3C /* Build configuration list for PBXNativeTarget "ShadowPath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

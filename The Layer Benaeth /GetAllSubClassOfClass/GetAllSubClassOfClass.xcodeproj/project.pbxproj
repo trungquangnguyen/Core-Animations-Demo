@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B40C1CA1CFFCCE3000602A8 /* SupperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B40C1C91CFFCCE3000602A8 /* SupperClass.m */; };
+		5B40C1CE1CFFCD1C000602A8 /* Class1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B40C1CD1CFFCD1C000602A8 /* Class1.m */; };
+		5B40C1D11CFFCD2C000602A8 /* Class2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B40C1D01CFFCD2C000602A8 /* Class2.m */; };
+		5B40C1D51CFFCD90000602A8 /* SubClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B40C1D41CFFCD90000602A8 /* SubClass1.m */; };
 		5B60D1981CFEDD5A002FAE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60D1971CFEDD5A002FAE3C /* main.m */; };
 		5B60D19B1CFEDD5A002FAE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60D19A1CFEDD5A002FAE3C /* AppDelegate.m */; };
 		5B60D19E1CFEDD5A002FAE3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60D19D1CFEDD5A002FAE3C /* ViewController.m */; };
@@ -16,6 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B40C1C81CFFCCE3000602A8 /* SupperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupperClass.h; sourceTree = "<group>"; };
+		5B40C1C91CFFCCE3000602A8 /* SupperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupperClass.m; sourceTree = "<group>"; };
+		5B40C1CC1CFFCD1C000602A8 /* Class1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class1.h; sourceTree = "<group>"; };
+		5B40C1CD1CFFCD1C000602A8 /* Class1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Class1.m; sourceTree = "<group>"; };
+		5B40C1CF1CFFCD2C000602A8 /* Class2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class2.h; sourceTree = "<group>"; };
+		5B40C1D01CFFCD2C000602A8 /* Class2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Class2.m; sourceTree = "<group>"; };
+		5B40C1D31CFFCD90000602A8 /* SubClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClass1.h; sourceTree = "<group>"; };
+		5B40C1D41CFFCD90000602A8 /* SubClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClass1.m; sourceTree = "<group>"; };
 		5B60D1931CFEDD5A002FAE3C /* GetAllSubClassOfClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetAllSubClassOfClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B60D1971CFEDD5A002FAE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B60D1991CFEDD5A002FAE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +51,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B40C1C71CFFCCA8000602A8 /* SupperClass */ = {
+			isa = PBXGroup;
+			children = (
+				5B40C1CB1CFFCD02000602A8 /* SubClass */,
+				5B40C1C81CFFCCE3000602A8 /* SupperClass.h */,
+				5B40C1C91CFFCCE3000602A8 /* SupperClass.m */,
+			);
+			name = SupperClass;
+			sourceTree = "<group>";
+		};
+		5B40C1CB1CFFCD02000602A8 /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				5B40C1D21CFFCD7C000602A8 /* SubSub */,
+				5B40C1CC1CFFCD1C000602A8 /* Class1.h */,
+				5B40C1CD1CFFCD1C000602A8 /* Class1.m */,
+				5B40C1CF1CFFCD2C000602A8 /* Class2.h */,
+				5B40C1D01CFFCD2C000602A8 /* Class2.m */,
+			);
+			name = SubClass;
+			sourceTree = "<group>";
+		};
+		5B40C1D21CFFCD7C000602A8 /* SubSub */ = {
+			isa = PBXGroup;
+			children = (
+				5B40C1D31CFFCD90000602A8 /* SubClass1.h */,
+				5B40C1D41CFFCD90000602A8 /* SubClass1.m */,
+			);
+			name = SubSub;
+			sourceTree = "<group>";
+		};
 		5B60D18A1CFEDD5A002FAE3C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +101,7 @@
 		5B60D1951CFEDD5A002FAE3C /* GetAllSubClassOfClass */ = {
 			isa = PBXGroup;
 			children = (
+				5B40C1C71CFFCCA8000602A8 /* SupperClass */,
 				5B60D1991CFEDD5A002FAE3C /* AppDelegate.h */,
 				5B60D19A1CFEDD5A002FAE3C /* AppDelegate.m */,
 				5B60D19C1CFEDD5A002FAE3C /* ViewController.h */,
@@ -149,8 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B40C1D51CFFCD90000602A8 /* SubClass1.m in Sources */,
 				5B60D19E1CFEDD5A002FAE3C /* ViewController.m in Sources */,
+				5B40C1D11CFFCD2C000602A8 /* Class2.m in Sources */,
+				5B40C1CA1CFFCCE3000602A8 /* SupperClass.m in Sources */,
 				5B60D19B1CFEDD5A002FAE3C /* AppDelegate.m in Sources */,
+				5B40C1CE1CFFCD1C000602A8 /* Class1.m in Sources */,
 				5B60D1981CFEDD5A002FAE3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +348,7 @@
 				5B60D1AC1CFEDD5A002FAE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
