@@ -8,11 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LayerMaskViewController: UIViewController {
 
+    @IBOutlet weak var maskImg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // create maskLayer
+        let maskLayer = CALayer()
+        maskLayer.frame = maskImg.bounds
+        let image = UIImage(named: "Cone")
+        maskLayer.contents = image?.CGImage
+        
+        //Apply mask to  image
+        maskImg.layer.mask = maskLayer
     }
 
     override func didReceiveMemoryWarning() {

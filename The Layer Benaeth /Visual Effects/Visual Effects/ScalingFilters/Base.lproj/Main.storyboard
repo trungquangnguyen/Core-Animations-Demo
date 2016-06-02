@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Scaling Filters View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ScalingFiltersViewController" customModule="ScalingFilters" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVt-u1-Cyi">
+                                <rect key="frame" x="2" y="203" width="50" height="125"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ew0-Sz-6jP">
+                                <rect key="frame" x="52" y="203" width="50" height="125"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jNh-3W-rML">
+                                <rect key="frame" x="110" y="203" width="50" height="125"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e0X-ZV-Zkm">
+                                <rect key="frame" x="160" y="203" width="50" height="125"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mSH-KD-QpB">
+                                <rect key="frame" x="218" y="203" width="50" height="125"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S7K-wW-htL">
+                                <rect key="frame" x="268" y="203" width="50" height="125"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="digitViews" destination="SVt-u1-Cyi" collectionClass="NSMutableArray" id="V91-af-FR7"/>
+                        <outletCollection property="digitViews" destination="ew0-Sz-6jP" collectionClass="NSMutableArray" id="X5f-3y-E3k"/>
+                        <outletCollection property="digitViews" destination="jNh-3W-rML" collectionClass="NSMutableArray" id="oPo-Yx-NtH"/>
+                        <outletCollection property="digitViews" destination="e0X-ZV-Zkm" collectionClass="NSMutableArray" id="x5t-8Y-wLZ"/>
+                        <outletCollection property="digitViews" destination="mSH-KD-QpB" collectionClass="NSMutableArray" id="6TM-MX-AGd"/>
+                        <outletCollection property="digitViews" destination="S7K-wW-htL" collectionClass="NSMutableArray" id="Cw7-JS-L9F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="392"/>
+        </scene>
+    </scenes>
+</document>
